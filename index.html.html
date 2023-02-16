@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>dom-1</title>
+		<style>
+		</style>
+</head>
+<body>
+<button onclick="touch()">click</button>
+
+<script>
+	
+let para=document.createElement('p');
+para.innerText="name is suyaraj";
+para.setAttribute('Id','para');
+document.body.appendChild(para);
+console.log(para);
+
+function touch(){
+console.log("success");
+
+
+
+
+let head=document.createElement("h");
+head.innerText="my name is suyaraj"
+console.log(head);
+
+
+let div=document.createElement("div");
+document.body.appendChild(div);
+
+let headding=document.createElement("h2");
+headding.innerText="native"
+div.appendChild(headding);
+
+let parah=document.createElement("p");
+parah.innerText="from avudayanoor"
+div.appendChild(parah);
+
+let div2=document.createElement("div");
+div.appendChild(div2);
+
+let parah2=document.createElement("p");
+parah2.innerText="tenkasi district"
+div2.appendChild(parah2);
+
+console.log(div);
+}
+
+</script>
+</body>
+</html>
